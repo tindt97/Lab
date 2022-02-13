@@ -1,15 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>{"Wellcome ReactJS App"}</p>
-      </header>
-    </div>
-  );
+import { Component } from 'react/cjs/react.production.min';
+import { Navbar, NavbarBrand } from 'reactstrap';
+class App extends Component {
+  render () {
+    return (
+      <div className='App'>
+          <Navbar dark color ='primary'>
+            <div className='container'>
+              <NavbarBrand href="/">Ristorante Con Confusion</NavbarBrand>
+            </div>
+          </Navbar>
+      </div>
+    );
+  }
 }
 
 export default App;
