@@ -3,6 +3,7 @@ import './App.css';
 import { Component } from 'react/cjs/react.production.min';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './components/MenuComponent';
+
 class App extends Component {
   render () {
     return (
@@ -12,7 +13,7 @@ class App extends Component {
               <NavbarBrand href="/">Ristorante Con Confusion</NavbarBrand>
             </div>
           </Navbar>
-          <Menu/>
+          <Menu />
       </div>
     );
   }
