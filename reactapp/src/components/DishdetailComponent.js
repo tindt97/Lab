@@ -1,5 +1,4 @@
-import react from "react";
-import { Card, CardBody, CardImg, CardImgOverlay, CardText, CardTitle } from "reactstrap";
+import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
 
 function RenderDish({ dish }) {
     return (
